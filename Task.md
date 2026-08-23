@@ -1,0 +1,1 @@
+https://github.com/info-gallary/ML_Models_HackNUthon/tree/main/Adani_Ent_Stock_Prediction : You have to clone this specific repo and have to create a EDA + Groq based recommadation and react js based simple dashboard with three ML models : KNN which is already implemented, Random Forest and Xgboost and create a simple readme

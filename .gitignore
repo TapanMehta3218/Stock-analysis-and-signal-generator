@@ -1,0 +1,28 @@
+# secrets — backend/.env holds the Groq API key
+.env
+*.env
+!.env.example
+!backend/.env.example
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# trained artifacts (regenerate with `cd backend && python train.py`)
+backend/artifacts/models/
+backend/artifacts/*.json
+
+# node / vite
+node_modules/
+frontend/dist/
+npm-debug.log*
+
+# the upstream clone used to bootstrap this project
+_repo/
+
+# os
+.DS_Store
+Thumbs.db
